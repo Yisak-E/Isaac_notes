@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Events</title>
+        <link rel="stylesheet" href="css.css">
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" >
+    </head>
+
+    <body>
+        
+        <div class="container mb-5 mt-5">
+            <h1 class="text-secondary text-center">JavaScript Events</h1>
+<div class="text-center mb-4 ">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="JavaScript Events" width="100" height="100">
+   
+    <div class="text-start mx-auto rounded-3 p-3 notes" style="width: 80%;">
+        <p class="">JavaScript events are actions or occurrences that happen in the browser window, which can be detected by JavaScript. These events can be triggered by user interactions, such as clicking a button, moving the mouse, or pressing a key.</p>
+        <p>Here are some common JavaScript events:</p>
+   </div>
+   
+  
+    <div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+     <h3 class="text-center" >Mouse Events</h3>
+    <code >`click`</code>: Triggered when an element is clicked.<br>
+    <code >`dblclick`</code>: Triggered when an element is double-clicked.<br>
+    <code >`mousedown`</code>: Triggered when a mouse button is pressed.<br>
+    <code >`mouseup`</code>: Triggered when a mouse button is released.<br>
+    <code >`mousemove`</code>: Triggered when the mouse is moved.<br>
+    <code >`mouseover`</code>: Triggered when the mouse is moved over an element.<br>
+    <code >`mouseout`</code>: Triggered when the mouse leaves an element.<br>
+    <code >`contextmenu`</code>: Triggered when the context menu (right-click) is activated.<br><br>
+    
+    </div>
+    
+</div>
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Keyboard Events</h3>
+    <code >`keydown`</code>: Triggered when a key is pressed down.<br>
+    <code >`keyup`</code>: Triggered when a key is released.<br>
+    <code >`keypress`</code>: Triggered when a key is pressed (deprecated, use `keydown` or `keyup`).<br><br>
+
+</div>
+
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Form Events</h3>
+<code >`submit`</code>: Triggered when a form is submitted.<br>
+<code >`change`</code>: Triggered when the value of an input element changes.<br>
+<code >`input`</code>: Triggered while the value of an input element is being modified.<br>
+
+<code >`focus`</code>: Triggered when an element gains focus.<br>
+<code >`blur`</code>: Triggered when an element loses focus.<br><br>
+
+</div>
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Window Events</h3>
+<code >`load`</code>: Triggered when the page finishes loading.<br>
+<code >`resize`</code>: Triggered when the browser window is resized.<br>
+<code >`scroll`</code>: Triggered when the user scrolls the page.<br>
+<code >`unload`</code>: Triggered when the user leaves the page.<br>
+<code >`error`</code>: Triggered when there is a JavaScript error.<br><br>
+
+</div>
+
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Touch Events (Mobile)</h3>
+<code >`touchstart`</code>: Triggered when a touch point is placed on the screen.<br>
+<code >`touchend`</code>: Triggered when a touch point is removed from the screen.<br>
+<code >`touchmove`</code>: Triggered when a touch point moves across the screen.<br>
+<code >`touchcancel`</code>: Triggered when a touch event is canceled.<br><br>
+
+</div>
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Drag & Drop Events</h3>
+    <code >`drag`</code>: Triggered when an element is being dragged.<br>
+    <code >`dragstart`</code>: Triggered at the start of dragging.<br>
+    <code >`dragend`</code>: Triggered when dragging ends.<br>
+    <code >`dragover`</code>: Triggered when the dragged element is over a valid drop target.<br>
+    <code >`drop`</code>: Triggered when the dragged element is dropped on a valid target.<br><br>
+</div>
+
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Clipboard Events</h3>
+    <code >`copy`</code>: Triggered when content is copied to the clipboard.<br>
+    <code >`cut`</code>: Triggered when content is cut to the clipboard.<br>
+    <code >`paste`</code>: Triggered when content is pasted from the clipboard.<br><br>
+</div>
+
+<div class="text-start mx-auto main_info rounded mt-3" style="width: 80%;">
+    <h3 class="" style="text-align: center;">Media Events</h3>
+    <code >`loadstart`</code>: Triggered when the browser starts looking for media.<br>
+    <code >`progress`</code>: Triggered when the browser is downloading media.<br>
+    <code >`suspend`</code>: Triggered when media download is paused.<br>
+    <code >`abort`</code>: Triggered when media download is canceled.<br>
+    <code >`ended`</code>: Triggered when media playback ends.<br><br>
+    <code >`timeupdate`</code>: Triggered when the current playback position changes.<br>
+    <code >`canplay`</code>: Triggered when the browser can start playing media.<br>
+    <code >`canplaythrough`</code>: Triggered when the browser estimates it can play through the media without stopping.<br>
+    <code >`playing`</code>: Triggered when media is playing after being paused or stopped.<br>
+    <code >`waiting`</code>: Triggered when media is paused and waiting for more data.<br>
+    <code >`seeking`</code>: Triggered when the user is seeking to a new position in the media.<br>
+    <code >`seeked`</code>: Triggered when the seeking operation is complete.<br>
+    <code >`stalled`</code>: Triggered when the browser is trying to fetch media but is unable to.<br>
+    <code >`loadedmetadata`</code>: Triggered when metadata (like duration) is loaded.<br>
+    <code >`loadeddata`</code>: Triggered when the first frame of media is loaded.<br>
+    
+</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+.notes{
+    background-color: antiquewhite;
+    padding: 5px 20px;
+}
+
+.main_info{
+    background-color: lightblue;
+    padding: 5px 20px;
+}
+.main_info code{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right:5px;
+    background-color: wheat;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
